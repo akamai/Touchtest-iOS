@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
 
   s.name             = "Touchtest"
-  s.version          = "0.2.0"
+  s.version          = "1.0.0"
   s.summary          = "Functional Test Automation library for iOS applications."
   s.license        = { :type => 'Apache License, Version 2.0', :file => 'LICENSE'}
   s.social_media_url = 'https://twitter.com/cloudtest'
-  s.source         = { :git => "https://github.com/SOASTA/mPulse-iOS.git", :tag => s.version }
-  s.homepage       = "https://github.com/SOASTA/mPulse-iOS"
+  s.source         = { :git => "https://github.com/SOASTA/Touchtest-iOS.git", :tag => s.version }
+  s.homepage       = "https://github.com/SOASTA/Touchtest-iOS"
   s.author         = { "SOASTA" => "support@soasta.com" }
 
   s.platform       = :ios
