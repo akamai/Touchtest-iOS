@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "Touchtest"
-  s.version          = "1.0.2"
+  s.version          = "1.0.3"
   s.summary          = "Functional Test Automation library for iOS applications."
   s.license        = { :type => 'Apache License, Version 2.0', :file => 'LICENSE'}
   s.social_media_url = 'https://twitter.com/cloudtest'
