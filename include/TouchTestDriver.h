@@ -59,6 +59,13 @@
  */
 + (void) setTouchTestDelegate:(id<TouchTestDelegate>)delegate;
 
+/**
+ * Determine if the current device is 3D touch capable and that the 3D touch setting is turned on.
+ * The user can turn off the 3D touch setting during runtime which is why each time this method is 
+ * sent a message it will redetermine if the app is 3D touch capable.
+ */
++ (BOOL) is3DTouchEnabled;
+
 @end
 
 
