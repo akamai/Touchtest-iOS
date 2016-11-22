@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'libTouchTestDriver.a'
   s.ios.vendored_library = 'libTouchTestDriver.a'
   s.libraries      = 'z', 'xml2', 'TouchTestDriver'
-  s.frameworks     = 'CFNetwork', 'CoreGraphics', 'OpenGLES', 'CoreLocation', 'MapKit', 'QuartzCore', 'IOKit', 'GraphicsServices'
+  s.frameworks     = 'CFNetwork', 'CoreGraphics', 'OpenGLES', 'CoreLocation', 'MapKit', 'QuartzCore', 'IOKit', 'WebKit'
   s.user_target_xcconfig = { 'OTHER_LDFLAGS' => '-F$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/' }
   s.requires_arc   = true
 end
